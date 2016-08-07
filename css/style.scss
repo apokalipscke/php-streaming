@@ -32,3 +32,9 @@ video {
         }
     }
 }
+
+@media(max-width: 768px) {
+    .file-box {
+        padding: 15px 0;
+    }
+}

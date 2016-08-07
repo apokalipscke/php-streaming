@@ -14,7 +14,7 @@ function b2mb($b) {
     $alledateien = scandir($folder);
 
     foreach ($alledateien as $datei) {
-        if($datei != '.' and $datei != '..') {
+        if(substr($datei, strpos($datei, '.')) == '.mp4') {
             ?>
             
             <li class="<?php if($_GET['file'] == $datei) { echo 'active'; } ?>"><a href="?file=<?php echo $datei ?>">

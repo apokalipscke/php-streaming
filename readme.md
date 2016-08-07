@@ -11,4 +11,4 @@ README
 2 todos
 -------
 
-1. display only video files from `videos` dir
+1. find a resource friendly method to get video duration
