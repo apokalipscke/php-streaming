@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HTML5 Streaming</title>
+    <title>HTML5 Streaming - <?php echo (isset($_GET['file']) ? substr($_GET['file'], 0, strpos($_GET['file'], '.')) : 'Stream auswählen') ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -17,11 +17,11 @@
   <body>
       <div class="container">
           <div class="row">
-            <h1><?php echo substr($_GET['file'], 0, strpos($_GET['file'], '.')) ?></h1>
+            <h1><?php echo (isset($_GET['file']) ? substr($_GET['file'], 0, strpos($_GET['file'], '.')) : 'Stream auswählen') ?></h1>
           </div>
           <div class="row">
               <div class="col-md-8 col-sm-7 video-box">
-                <video width="1080" controls>
+                <video width="1080" poster="hintergrund.png" controls>
                   <source src="stream.php?file=<?php echo $_GET['file'] ?>" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
@@ -30,7 +30,7 @@
                 <?php include 'dateiliste.php' ?>
               </div>
           </div>
-          
+
       </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
