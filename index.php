@@ -20,13 +20,13 @@
             <h1><?php echo substr($_GET['file'], 0, strpos($_GET['file'], '.')) ?></h1>
           </div>
           <div class="row">
-              <div class="col-md-8 video-box">
+              <div class="col-md-8 col-sm-7 video-box">
                 <video width="1080" controls>
                   <source src="stream.php?file=<?php echo $_GET['file'] ?>" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-5 file-box">
                 <?php include 'dateiliste.php' ?>
               </div>
           </div>

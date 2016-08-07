@@ -29,4 +29,9 @@ video {
       color: black;
       text-decoration: none; }
 
+@media (max-width: 768px) {
+  /* line 37, C:/xampp/htdocs/php-streaming/css/style.scss */
+  .file-box {
+    padding: 15px 0; } }
+
 /*# sourceMappingURL=style.css.map */
