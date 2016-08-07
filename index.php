@@ -18,6 +18,7 @@
       <div class="container">
           <div class="row">
             <h1><?php echo (isset($_GET['file']) ? substr($_GET['file'], 0, strpos($_GET['file'], '.')) : 'Stream auswählen') ?></h1>
+            <h2>Testing the autopull function</h2>
           </div>
           <div class="row">
               <div class="col-md-8 col-sm-7 video-box">
