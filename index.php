@@ -25,7 +25,6 @@
                   <source src="stream.php?file=<?php echo $_GET['file'] ?>" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
-                <h2>autopull via crontab test</h2>
               </div>
               <div class="col-md-4 col-sm-5 file-box">
                 <?php include 'dateiliste.php' ?>
