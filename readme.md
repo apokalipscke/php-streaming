@@ -6,7 +6,13 @@ README
 
 1. `git clone https://github.com/marlip/php-streaming.git`
 2. upload videofiles to php-streaming/videos/
-2. go to `http://example.com/path/to/your/php-streaming/` in your browser
+3. go to `http://example.com/path/to/your/php-streaming/` in your browser
+
+1.2 autopull
+------------
+
+1. on the live-system: `crontab -e`
+2. add the line: `*   *   *   *   *   /path/to/php-streaming/autopull.sh`
 
 2 todos
 -------
