@@ -1,0 +1,32 @@
+/* line 1, C:/xampp/htdocs/php-streaming/css/style.scss */
+.video-box {
+  padding: 0; }
+
+/* line 5, C:/xampp/htdocs/php-streaming/css/style.scss */
+video {
+  max-width: 100%; }
+
+/* line 9, C:/xampp/htdocs/php-streaming/css/style.scss */
+.filelist {
+  padding: 0;
+  list-style: none; }
+  /* line 13, C:/xampp/htdocs/php-streaming/css/style.scss */
+  .filelist li {
+    padding: 10px;
+    background-image: url(../play.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    padding-left: 80px; }
+    /* line 21, C:/xampp/htdocs/php-streaming/css/style.scss */
+    .filelist li.active {
+      background-color: rgba(0, 126, 255, 0.18); }
+    /* line 25, C:/xampp/htdocs/php-streaming/css/style.scss */
+    .filelist li .title {
+      font-weight: bold; }
+    /* line 29, C:/xampp/htdocs/php-streaming/css/style.scss */
+    .filelist li a {
+      color: black;
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
