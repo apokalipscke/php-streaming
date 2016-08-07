@@ -12,7 +12,7 @@ README
 ------------
 
 1. on the live-system: `crontab -e`
-2. add the line: `*   *   *   *   *   /path/to/php-streaming/autopull.sh`
+2. add the line: `*   *   *   *   *   git -C /path/to/php-streaming/ pull origin master`
 
 2 todos
 -------
